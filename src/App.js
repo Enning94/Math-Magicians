@@ -1,15 +1,11 @@
-import React from 'react';
+import React, { memo } from 'react';
 import './App.css';
 import Calculator from './components/Calculator';
 
-class App extends React.PureComponent {
-  render() {
-    return (
-      <div>
-        <Calculator />
-      </div>
-    );
-  }
-}
-
+const App = memo(() => (
+  <div>
+    <Calculator />
+  </div>
+));
+App.displayName = 'MyApp';
 export default App;
