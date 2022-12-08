@@ -1,0 +1,9 @@
+.quote-page {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 8rem;
+  font-size: 2rem;
+  font-style: oblique;
+  font-weight: bold;
+  color: rgba(165, 42, 42, 0.774);
+}

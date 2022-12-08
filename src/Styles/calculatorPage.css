@@ -1,0 +1,11 @@
+
+.calculator-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+}
+
+.title {
+  color: brown;
+  font-size: 3rem;
+}
