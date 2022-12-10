@@ -13,4 +13,7 @@ describe('Testing operate.js', () => {
   test('Test for division function', () => {
     expect(operate(10, 2, '÷')).toBe('5');
   });
+  test('Test for modular function', () => {
+    expect(operate(5, 2, '%')).toBe('1');
+  });
 });
