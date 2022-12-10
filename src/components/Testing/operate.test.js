@@ -14,6 +14,6 @@ describe('Testing operate.js', () => {
     expect(operate(10, 2, '÷')).toBe('5');
   });
   test('Test for modulus function', () => {
-    expect(operate(5, 2, '%')).toBe('1');
+    expect(operate(10, 2, '%')).toBe('0');
   });
 });
